@@ -72,6 +72,61 @@ VPNs provide encrypted remote access to internal networks.
 
 ---
 
+### 3.5 Personal Area Network (PAN)
+A Personal Area Network (PAN) is a very small network used for communication
+between personal devices over short distances.
+
+Examples:
+- Smartphone connected to a smartwatch
+- Bluetooth headset connected to a laptop
+- Wireless keyboard and mouse
+
+Common Technologies:
+- Bluetooth
+- NFC
+- Infrared
+- USB (tethering)
+
+SOC Relevance:
+- PANs are usually outside enterprise monitoring scope
+- Compromised personal devices can become an initial access point
+- Bluetooth-based attacks may bypass traditional network controls
+
+---
+
+### 3.6 Metropolitan Area Network (MAN)
+A Metropolitan Area Network (MAN) connects multiple LANs across a city
+or large campus environment.
+
+Examples:
+- Government networks across a city
+- University campuses
+- Large enterprises with multiple sites in one metro area
+
+Common Technologies:
+- Fiber optic links
+- MPLS
+- Metro Ethernet
+
+SOC Relevance:
+- Attacks can propagate quickly between connected locations
+- Requires strong segmentation and monitoring
+- Logs from MAN links are critical for detecting lateral movement
+
+---
+
+### Network Types Comparison
+
+Type | Coverage | Example | SOC Risk
+---- | -------- | ------- | --------
+PAN  | Few meters | Bluetooth devices | Low (but stealthy)
+LAN  | Building | Office network | High
+WLAN | Building | Corporate Wi-Fi | High
+MAN  | City | University / Government | Very High
+WAN  | Country/Global | Branch offices | Critical
+
+---
+
 ## 4. Client–Server Model
 Most enterprise networks follow the client–server architecture:
 
