@@ -19,7 +19,7 @@ The goal is simple:
 
 ## 🧩 Cyber Kill Chain Stages
 
-<img width="208" height="242" alt="image" src="https://github.com/user-attachments/assets/e0c23500-3ced-4879-9a37-e143a51e290a" />
+<img width="1159" height="612" alt="image" src="https://github.com/user-attachments/assets/214f61ab-0bbc-42fb-9516-a3142db87e82" />
 
 
 ### 1️⃣ Reconnaissance
