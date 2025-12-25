@@ -17,6 +17,9 @@ The SOC acts as the **defensive nerve center**, ensuring threats are identified 
 
 ## 👥 SOC Team Roles (High Level)
 
+<img width="900" height="599" alt="image" src="https://github.com/user-attachments/assets/e03f2967-e505-465b-a59f-5b5387136996" />
+
+
 ### SOC Analyst Tier 1
 - Monitor alerts
 - Perform initial triage
