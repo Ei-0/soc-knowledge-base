@@ -18,6 +18,8 @@ Severity determines:
 
 ## 🚦 Common Severity Levels
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b473874f-dfc4-4387-82c7-5c7b8fab5103" />
+
 ### 🟢 Low
 Examples:
 - Failed login attempts
