@@ -11,8 +11,7 @@ This repository covers the **foundational knowledge, tools, and concepts** requi
 
 ## 🔗 Related Repository
 - Practical SOC Case Studies:  
-  👉 https://github.com/<YOUR_USERNAME>/soc-case-studies
-
+  👉 https://github.com/Ei-0/soc-case-studies.git
 ## 🧭 How to Use This Repository
 1. Start with the **Roadmap**
 2. Study each topic by section
