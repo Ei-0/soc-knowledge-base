@@ -95,3 +95,5 @@ This concept directly applies to:
 - Threat hunting
 - Detection engineering
 - MITRE ATT&CK mapping in case studies
+
+<img width="768" height="500" alt="image" src="https://github.com/user-attachments/assets/d773d706-21ea-4655-aff3-360e9eca9033" />
