@@ -1,7 +1,6 @@
 # macOS Anti-Forensics — Evasion, Obfuscation & SOC Challenges (DFIR)
 
 
-::contentReference[oaicite:0]{index=0}
 
 
 ## Overview
