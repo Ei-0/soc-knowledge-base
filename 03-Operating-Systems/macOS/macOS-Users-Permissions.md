@@ -1,18 +1,18 @@
 # macOS Users & Permissions — Identity, Access & Abuse (SOC / DFIR)
 
 
-::contentReference[oaicite:0]{index=0}
 
+---
 
 ## Overview
 
 User accounts and permission controls on macOS are **central to both security and attacker success**.
 
 Unlike Linux, macOS tightly integrates:
-- User identity
-- GUI permissions
-- Privacy controls
-- System protections
+- User identity  
+- GUI permissions  
+- Privacy controls  
+- System protections  
 
 Attackers rarely need root if they can **abuse user permissions effectively**.
 
@@ -23,22 +23,22 @@ Attackers rarely need root if they can **abuse user permissions effectively**.
 macOS supports several account types:
 
 ### Standard User
-- Default account type
-- Limited system changes
-- Can install apps (with password)
+- Default account type  
+- Limited system changes  
+- Can install apps (with password)  
 
 ### Administrator
-- Member of the `admin` group
-- Can install system software
-- Can grant permissions to apps
-- Does NOT bypass SIP
+- Member of the `admin` group  
+- Can install system software  
+- Can grant permissions to apps  
+- Does **NOT** bypass SIP  
 
 ### Root User
-- Disabled by default
-- Rarely used interactively
-- Still restricted by SIP
+- Disabled by default  
+- Rarely used interactively  
+- Still restricted by SIP  
 
-🚩 Root access ≠ full control on macOS.
+🚩 **Root access ≠ full control on macOS.**
 
 ---
 
@@ -46,18 +46,18 @@ macOS supports several account types:
 
 macOS uses a BSD-style user model.
 
-Key groups:
-- admin
-- staff
-- wheel
-- everyone
+### Key groups:
+- admin  
+- staff  
+- wheel  
+- everyone  
 
 Group membership impacts:
-- sudo access
-- GUI prompts
-- App installation behavior
+- sudo access  
+- GUI prompts  
+- App installation behavior  
 
-SOC Tip:
+**SOC Tip:**  
 Unexpected admin membership is high risk.
 
 ---
@@ -65,15 +65,15 @@ Unexpected admin membership is high risk.
 ## Authentication Mechanisms
 
 Common authentication methods:
-- Local password
-- FileVault unlock
-- Touch ID
-- Apple ID (iCloud integration)
+- Local password  
+- FileVault unlock  
+- Touch ID  
+- Apple ID (iCloud integration)  
 
 Artifacts:
-- /var/db/dslocal/
-- Keychain
-- Authentication logs (Unified Logs)
+- `/var/db/dslocal/`  
+- Keychain  
+- Authentication logs (Unified Logs)  
 
 ---
 
@@ -81,24 +81,24 @@ Artifacts:
 
 macOS permissions operate in layers:
 
-1. POSIX permissions
-2. Access Control Lists (ACLs)
-3. System Integrity Protection (SIP)
-4. TCC privacy permissions
-5. User consent dialogs
+1. POSIX permissions  
+2. Access Control Lists (ACLs)  
+3. System Integrity Protection (SIP)  
+4. TCC privacy permissions  
+5. User consent dialogs  
 
-Bypassing one layer does not bypass the others.
+Bypassing one layer does **not** bypass the others.
 
 ---
 
 ## Access Control Lists (ACLs)
 
-ACLs provide fine-grained permissions beyond POSIX.
+ACLs provide fine‑grained permissions beyond POSIX.
 
-
+Example:
+```bash
+ls -le
 ```
-
-## ACLs (Access Control Lists)
 
 ACLs are common on:
 - User home directories  
@@ -127,7 +127,7 @@ Stored in:
 ### Attackers abuse TCC by:
 - Social engineering user approval  
 - Abusing trusted applications  
-- Modifying the TCC database (if possible)  
+- Modifying TCC database (if possible)  
 
 ---
 
