@@ -9,6 +9,7 @@ They are commonly abused by attackers for data exfiltration and unauthorized fil
 - FTP: Transfers files in cleartext
 - SFTP: Transfers files securely over SSH
 <img width="805" height="446" alt="image" src="https://github.com/user-attachments/assets/13ec2df0-4cb6-407d-a1a8-7bb055bc6cde" />
+<img width="1161" height="712" alt="image" src="https://github.com/user-attachments/assets/9cc22e0f-4e49-420d-b99a-187bbd84e8a5" />
 
 Used for:
 - File uploads and downloads
@@ -16,6 +17,7 @@ Used for:
 - Data exchange between systems
 
 ---
+<img width="980" height="1377" alt="image" src="https://github.com/user-attachments/assets/bad046f8-add2-42f7-8e56-b26b8d81ae7a" />
 
 ## Normal Behavior
 Typical FTP/SFTP behavior includes:
