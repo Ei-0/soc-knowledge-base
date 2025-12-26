@@ -176,5 +176,3 @@ Persistence answers usually reveal the attacker.
 
 ---
 
-## ➡️ Next File
-Linux-Privilege-Escalation.md
