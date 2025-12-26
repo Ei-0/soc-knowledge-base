@@ -83,6 +83,3 @@ Windows internals are involved in:
 - Persistence
 
 ---
-
-## 🚀 What’s Next?
-👉 **Privilege-Escalation.md**
