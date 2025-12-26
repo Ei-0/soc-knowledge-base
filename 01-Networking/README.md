@@ -43,7 +43,6 @@ logs, and investigation rather than pure theory.
 ## 🧭 Quick Reference — OSI + TCP/IP + Traffic Flow
 
 
-::contentReference[oaicite:1]{index=1}
 
 
 ### How SOC Analysts Use This Mapping
