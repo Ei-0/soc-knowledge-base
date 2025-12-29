@@ -1,5 +1,7 @@
-<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/894ce7d1-4f6f-4060-ae96-8174c05b546c" />
 # How SOC Analysts Think During Incidents
+
+<img width="960" height="720" alt="image" src="https://github.com/user-attachments/assets/894ce7d1-4f6f-4060-ae96-8174c05b546c" />
+
 
 ## 🎯 Purpose
 
@@ -223,15 +225,6 @@ This document represents exactly that mindset.
 
 ---
 
-## 🔗 Related Files in This Repository
-
-- Analytical-Thinking-Mental-Models.md
-- Threat-Hunting-Playbooks.md
-- Incident-Response-Lifecycle.md
-- SOC-Case-Studies/
-- Detection-Engineering.md
-
----
 
 ## 🏁 Final Thought
 
