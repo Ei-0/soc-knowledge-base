@@ -1,6 +1,4 @@
----
-
-## 🏔️ Detection Summit — Measuring SOC Detection Coverage
+# 🏔️ Detection Summit — Measuring SOC Detection Coverage
 
 The **Detection Summit** represents the highest level of SOC maturity:
 the ability to **understand, measure, and improve detection coverage**
