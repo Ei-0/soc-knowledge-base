@@ -1,5 +1,3 @@
----
-
 # 🔐 Cryptography Fundamentals (Encryption + Hashing) — SOC Reference
 
 ## 🎯 Learning Objective
