@@ -1,5 +1,3 @@
----
-
 # 🚦 SIEM Alert Classification Methodology
 ## Low | Medium | High | Critical
 
