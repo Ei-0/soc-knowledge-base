@@ -1,6 +1,8 @@
 # 🚦 SIEM Alert Classification Methodology
 ## Low | Medium | High | Critical
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/a0da3ef4-d8f8-4fd2-a186-85ca3455dd60" />
+
 ## 🎯 Objective
 
 This methodology enables SOC analysts to:
